@@ -1,0 +1,91 @@
+/* main.css */
+
+head {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+.banner-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #000;}
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #672200;
+    width: 100%;}
+.banner-content {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #000;
+    justify-content: center;
+    align-items: top;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+}
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.button {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button1 {
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}  
+.button2 {
+    width: 200px;
+    height: 100px;
+    background-color: purple;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.button3 {
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient(rgb(5, 153, 17), rgb(255, 0, 0));
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
