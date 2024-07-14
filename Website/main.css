@@ -37,7 +37,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.button-85 {
+.button-1 {
     padding: 0.6em 2em;
     width: 200px;
     height: 100px;
@@ -55,7 +55,7 @@ body {
     user-select: none;
     -webkit-user-select: none;
 }
-.button-85:before {
+.button-1:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -78,11 +78,11 @@ body {
   -webkit-filter: blur(5px);
   width: calc(100% + 4px);
   height: calc(100% + 4px);
-  animation: glowing-button-85 20s linear infinite;
+  animation: glowing-button-1 20s linear infinite;
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
-@keyframes glowing-button-85 {
+@keyframes glowing-button-1 {
   0% {
     background-position: 0 0;
   }
@@ -93,7 +93,7 @@ body {
     background-position: 0 0;
   }
 }
-.button-85:after {
+.button-1:after {
   z-index: -1;
   content: "";
   position: absolute;
