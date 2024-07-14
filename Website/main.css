@@ -32,12 +32,12 @@ body {
     height: 100vh;
     background-color: #222;
 }
-.button-container {
+button-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
-.button-1 {
+button {
     padding: 0.6em 2em;
     width: 200px;
     height: 100px;
@@ -55,7 +55,7 @@ body {
     user-select: none;
     -webkit-user-select: none;
 }
-.button-1:before {
+button-1:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -93,7 +93,7 @@ body {
     background-position: 0 0;
   }
 }
-.button-1:after {
+button-1:after {
   z-index: -1;
   content: "";
   position: absolute;
